@@ -1,14 +1,18 @@
 # Run Buddy
 
 ## Purpose
+
 A website that offers fitness training services.
 
 ## Built With
-* HTML
-* CSS
+
+- HTML
+- CSS
 
 ## Website
+
 https://mjos7.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️  by MJ
+
+Made with ❤️ by MJ

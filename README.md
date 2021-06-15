@@ -11,4 +11,4 @@ A website that offers fitness training services.
 https://mjos7.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by MJ
+Made with ❤️  by MJ

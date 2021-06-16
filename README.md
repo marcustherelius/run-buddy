@@ -1,4 +1,4 @@
-# Run Buddy Inc.
+# Run Buddy, Inc
 
 ## Purpose
 
@@ -16,3 +16,5 @@ https://mjos7.github.io/run-buddy/
 ## Contribution
 
 Made with ❤️ by MJ
+
+### ©️2021 Run Buddy, Inc

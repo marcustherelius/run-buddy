@@ -78,6 +78,28 @@ section {
   position: relative;
 }
 
+.hero-cta {
+  width: 500px;
+  padding: 20px;
+  position: absolute;
+  bottom: 220px;
+  right: 740px;
+  text-align: right;
+}
+
+.hero-cta h2 {
+  color: #fce138;
+  font-style: italic;
+  text-shadow: #024e76;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.hero-cta p {
+  color: #fff;
+  line-height: 1.3em;
+}
+
 .hero-form {
   color: #024e76;
   background-color: #fce138;

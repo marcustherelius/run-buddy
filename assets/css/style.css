@@ -1,13 +1,13 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 :root {
   --primary-color: #fce138;
   --secondary-color: #024e76;
   --tertiary-color: #39a6b2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -21,7 +21,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  z-index: 9999;
+
   padding: 20px 35px;
   background-color: var(--tertiary-color);
   background-image: url('../images/hero-bg.jpg');
@@ -32,6 +32,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 9999;
 }
 
 header h1 {
@@ -60,7 +61,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  padding: 10 15px;
+  padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -73,6 +74,10 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
+/* HEADER / NAVBAR STYLES END */
+
+/* FOOTER STYLES START */
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -82,7 +87,7 @@ footer {
   padding: 40px 35px;
 }
 
-footer h2 {
+footer h3 {
   color: var(--secondary-color);
   font-size: 30px;
   margin: 0;
@@ -96,6 +101,10 @@ footer div {
 footer a {
   color: var(--secondary-color);
 }
+
+/* END FOOTER STYLES */
+
+/* STYLE ALL SECTION TAGS */
 
 section {
   padding: 60px;
@@ -148,7 +157,7 @@ section {
 
 .hero-form {
   color: var(--secondary-color);
-  background-color: rgba(252, 225, 56, 0.8);
+  background-color: var(--primary-color);
   width: 40%;
   margin: 3.5%;
   padding: 20px;
@@ -546,7 +555,7 @@ section {
   }
 
   .step-img {
-    flex: 0 22%;
+    flex: 0 32%;
     margin-right: 0;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -554,6 +563,11 @@ section {
 
   .step-text {
     flex: 100%;
+  }
+
+  .trainer-bio h3,
+  .trainer-bio h4 {
+    display: block;
   }
 }
 
